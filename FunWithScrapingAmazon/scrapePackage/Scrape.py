@@ -2,7 +2,7 @@
 
 # Need to install lxml
 # pip install lxml - use the Eclipse tool in the project properties
-# We don't need to import lxml
+# We don't need to import lxml, just install it in the environment. 
 
 import bs4
 import requests
