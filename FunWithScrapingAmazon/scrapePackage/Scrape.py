@@ -16,7 +16,7 @@ def concoctRandomProductID():
     Concoct a random string that could be an Amazon Product ID. or not.
     '''
     productID = 'B0'              # Assume it starts with this
-    desiredLength = 10
+    desiredLength = 10            # Assume a product ID is "B0" followed by 8 characters
     chars = string.ascii_uppercase + string.digits
     return productID + ''.join(random.choice(chars) for _ in range(desiredLength - len(productID)))
 
