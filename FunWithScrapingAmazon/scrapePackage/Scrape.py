@@ -1,4 +1,4 @@
-#ScrapeCBOE.py
+#Scrape.py
 
 # Need to install lxml
 # pip install lxml - use the Eclipse tool in the project properties
